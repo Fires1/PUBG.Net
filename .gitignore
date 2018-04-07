@@ -10,7 +10,6 @@
 *.props
 *.targets
 packages/MSTest.TestAdapter.1.2.0/MSTest.TestAdapter.1.2.0.nupkg
-*.nupkg
 *.cache
 src/PUBG.NET.Core/obj/xdoc/cache/final/-316328394
 *.kwf
@@ -33,3 +32,7 @@ src/PUBG.NET.Telemetry/obj/xdoc/cache/obj/fnkqx0nq.0jg
 src/PUBG.NET.Telemetry/obj/xdoc/cache/obj/yo0qmkff.nbq
 src/PUBG.NET/.vs/PUBGLibrary/v15/.suo
 src/PUBG.NET/log.txt
+*.pdb
+packages/MSTest.TestFramework.1.2.0/MSTest.TestFramework.1.2.0.nupkg
+packages/Newtonsoft.Json.11.0.2/Newtonsoft.Json.11.0.2.nupkg
+src/PUBG.NET/bin/Debug/netstandard2.0/PUBGLibrary.deps.json
