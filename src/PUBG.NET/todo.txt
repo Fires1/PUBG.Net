@@ -1,0 +1,15 @@
+﻿//the mighty todo list
+* comments.
+* convert the world to async. <-- important
+* Split client helper into different files based on endpoints.
+* make lists of ids instead call upon a getter to make a request to grab that infos.
+* add support for roster type in Match.
+* remove comments and move to xml descriptions.
+* make team variable useful, need data from a squads game.
+* throw exception when servers are down.
+* okay so enums are FUCKED and some utility needs to be built to convert string to shard enum since attributes dont do fucking shit.
+* add support for telemetry parser to take text rather than reading from file.
+* verify all json->classes inside telemetry service correctly deserialized.
+* add username as a search type for PUBGClient.GetPlayer as it only currently works with ids.
+* explain things better in getting started, like how to get your last couple of matches.
+* replace raw id lists with getters that query the api for you to grab the actual classes, like IEnumerable<string> Matches on Core.Player

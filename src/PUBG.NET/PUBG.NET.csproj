@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>PUBGLibrary</AssemblyName>
+    <RootNamespace>PUBGLibrary</RootNamespace>
+    <PackageProjectUrl>https://github.com/Fires1/PUBG.Net</PackageProjectUrl>
+    <Description>A .NET Standard PUBG API and Replay library</Description>
+    <PackageLicenseUrl>https://github.com/Fires1/PUBG.Net/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Fires1/PUBG.Net</RepositoryUrl>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <VersionPrefix>1.0.5</VersionPrefix>
+    <ApplicationIcon />
+    <Win32Resource />
+    <Authors>Fires and epickitten</Authors>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageId>PUBG.NET</PackageId>
+    <RepositoryType />
+    <PackageTags>csharp</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\PUBGLibrary.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="LibraryTest.rsls" />
+    <None Remove="LICENSE" />
+    <None Remove="NET46LibraryTest.rsls" />
+    <None Remove="packages.rsls" />
+    <None Remove="PUBGLibrary.sln.rsls" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="docfx.console" Version="2.33.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="RestSharp" Version="106.2.1" />
+  </ItemGroup>
+
+</Project>
